@@ -1,0 +1,86 @@
+@import url('reset.css');
+body{
+	background:#555 url(../images/random_grey_variations.png) repeat top left;
+	color:#000;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	font-size:12px;
+	overflow-y:scroll;
+}
+a{
+	color:#f0f0f0;
+	text-decoration:none;
+}
+
+.clr{
+	clear:both;
+}
+.container {
+	width:100%;
+	margin:0 auto;
+}
+.header{
+	padding-top:10px;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	font-size: 48px;
+	text-align:center;
+
+}
+h1 a {
+	display: block; text-decoration: none;
+	font: 70px Helvetica, Arial, Sans-Serif; letter-spacing: -5px;  
+	text-align: center;
+	color: white; text-shadow: 0px 3px 8px #2a2a2a;
+ }
+ 	h1 a:hover {
+ 		color: #a0a0a0; text-shadow: 0px 5px 8px #2a2a2a;
+ 	}
+
+ h2{
+ 	font: 50px Tahoma, Helvetica, Arial, Sans-Serif;
+ 	text-align: center;
+ 	color: #222; text-shadow: 0px 2px 3px #555;
+ }
+
+ div#box{
+ 	height: 100%;
+ 	width: 600px;
+ 	margin-right: 0 auto;
+ 	margin-left: 0 auto;
+ 	background-color: white;
+ 	border-radius: 5px;
+ 	opacity: 0.7;
+ 	padding: 10px;
+ 	margin-top: 25px;
+
+
+ }
+
+p.about{
+	 font: 20px Tahoma, Helvetica, Arial, Sans-Serif;
+ 	text-align: center;
+ 	color: #222; text-shadow: 0px 2px 3px #555;
+}
+
+
+.content{
+	width:100%;
+	position:relative;
+	margin:20px 0 0 0;
+	clear:both;
+}
+
+img#facebook{
+	width:50px;
+	height:50px;
+	display: block;
+	margin-left:0 auto;
+	margin-right: 0 auto;
+}
+
+img#twitter{
+	width:50px;
+	height:50px;
+	display: block;
+	margin-left:0 auto;
+	margin-right:0 auto;
+}
