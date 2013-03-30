@@ -87,7 +87,9 @@ p.headline {
 	color: #3d3d3d;
 }
 
-
+.description{
+	display:none;
+}
 
 /* #Generic Styles
 ================================================== */
@@ -192,7 +194,7 @@ span.line4 {
 }
 
 #intro .bg1 {
-	background: url(../images/intro-bg.jpg) 0 0 repeat fixed;
+	background: url(../images/background.png) 0 0 repeat fixed;
 	/*background: url(../images/intro-bg2.jpg) repeat fixed;*/ /*Background 2*/
 	/*background: url(../images/intro-bg3.jpg) repeat fixed;*/ /*Background 3*/
 	margin: 0 auto;
@@ -630,7 +632,7 @@ p.line2nd {
 }
 
 #contact .bg2 {
-	background: url(../images/intro-bg.jpg) 0 0 repeat fixed;
+	background: url(../images/background.png) 0 0 repeat fixed;
 	/*background: url(../images/intro-bg2.jpg) 0 0 repeat fixed;*/ /*Background 2*/
 	/*background: url(../images/intro-bg3.jpg) 0 0 repeat fixed;*/ /*Background 3*/
 	margin: 0 auto;
@@ -802,11 +804,6 @@ p.line2nd {
 	padding: 10px 0 10px 0;
 }
 
-.copyright p {
-	color: #e4e4e4;
-	font-size: 11px;
-	margin-bottom: 0;
-}
 
 
 /* #Media Queries
