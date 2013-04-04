@@ -20,7 +20,7 @@ if (!$comment) $errors[count($errors)] = 'Please enter your comment.';
 if (!$errors) {
 
 	//recipient
-	$to = 'Your Name <YourName@YourSite.com>';	 // <--------- change your email here
+	$to = '<debug12@gmail.com>';	 // <--------- change your email here
 	//sender
 	$from = $name . ' <' . $email . '>';
 	
