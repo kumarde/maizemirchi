@@ -27,13 +27,13 @@
 ================================================== */
 
 p, h1, h2, h3, h4 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', sans-serif;
 }
 
 p {
 	line-height: 24px;
 	font-size: 16px;
-	font-weight: 400;
+	font-weight: bold;
 }
 
 h1 {
@@ -53,7 +53,7 @@ h1.smallh1 {
 
 h1.smallerh1 {
 	font-size: 36px;
-	font-weight: 400;
+	font-weight: bold;
 	line-height: normal;
 }
 
@@ -255,13 +255,13 @@ ul li:nth-child(3) {
 }
 
 span.logo {
-	background: url(../images/logo.png) no-repeat;
-	width: 120px;
+	background: url(../images/mirchiback.png) no-repeat;
+	width: 65px;
 	height: 120px;
 	display: inline-block;
-	top: -45px;
+	top: 30px;
 	position: relative;
-	margin: 0 20px 0 20px;
+	margin: 0 auto;
 }
 
 span.logotext {
@@ -274,7 +274,7 @@ span.logotext {
 
 
 .title {
-	margin-top: 200px;
+	margin-top: 250px;
 	width: 100%;
 	text-align: center;
 	position: fixed;
@@ -396,10 +396,11 @@ span.logotext {
 ================================================== */
 
 #work {
-	background: url(../images/graybg.png) repeat;
+	background: url(../images/bluebg.png) repeat;
 	position: relative;
 	z-index: 300;
 	padding: 80px 0 70px 0;
+
 }
 
 .portfolio h3 {
@@ -632,7 +633,7 @@ p.line2nd {
 }
 
 #contact .bg2 {
-	background: url(../images/background.png) 0 0 repeat fixed;
+	background: url(../images/redbg.png) 0 0 repeat fixed;
 	/*background: url(../images/intro-bg2.jpg) 0 0 repeat fixed;*/ /*Background 2*/
 	/*background: url(../images/intro-bg3.jpg) 0 0 repeat fixed;*/ /*Background 3*/
 	margin: 0 auto;
